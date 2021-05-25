@@ -4,6 +4,8 @@
 
 body{
     background-color: #090c1b;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 h1{
@@ -15,21 +17,32 @@ h1,p,h4{
     color: white;
 }
 
-img{
-    position: relative;
+.image-container{
+    background-image: linear-gradient(
+        rgba(161, 86, 206, 0.6),
+        rgba(161, 86, 206, 0.6)
+      ),
+      url('images/image-header-desktop.jpg');
+    background-size: cover;
+    width: 50%;
 }
+
+/* .image-container> img{
+    width: 100%;
+    height: 100%;
+} */
 
 
 .box{
-    border: 1px black solid;
-    padding: 30px;
-    width: 50%;
-    height: 300px;
+    
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
 
 }
 
 .card{
-    width: 60%;
+    width: 50%;
     display: flex;
     margin: 200px auto;
 
@@ -56,7 +69,12 @@ p{
 
 .con-container{
     background-color: #1c1938;
+    width: 50%;
     
+}
+
+.con-container > p{
+    width: 100%;
 }
 
 .image-container{
