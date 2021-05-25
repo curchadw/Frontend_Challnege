@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #090c1b;
+}
+
+h1{
+    margin-bottom: 10px;
+   
+}
+
+h1,p,h4{
+    color: white;
+}
+
+img{
+    position: relative;
+}
+
+
+.box{
+    border: 1px black solid;
+    padding: 30px;
+    width: 50%;
+    height: 300px;
+
+}
+
+.card{
+    width: 60%;
+    display: flex;
+    margin: 200px auto;
+
+    
+}
+
+p{
+    margin-top: 30px;
+}
+
+.insights{
+    color: #AF8BD0; 
+}
+
+.card_bottom{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_bottom > div > p{
+    margin-top: 1px;
+}
+
+.con-container{
+    background-color: #1c1938;
+    
+}
+
+.image-container{
+    background-color: #a156ce;
+}
