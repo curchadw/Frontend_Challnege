@@ -13,8 +13,12 @@ h1{
    
 }
 
-h1,p,h4{
+h1{
     color: white;
+}
+
+p,h4{
+    color: #EBEFEC
 }
 
 .image-container{
@@ -41,12 +45,21 @@ h1,p,h4{
 
 }
 
+@media only screen and (max-width: 732px) {
+    .card{
+        width: 600px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 200px auto;
+        border-radius: 10px;
+    }
+}
+
 .card{
     width: 50%;
     display: flex;
     margin: 200px auto;
-
-    
+    border-radius: 10px;
 }
 
 p{
@@ -60,7 +73,7 @@ p{
 .card_bottom{
     margin-top: 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card_bottom > div > p{
@@ -79,4 +92,8 @@ p{
 
 .image-container{
     background-color: #a156ce;
+}
+
+.footer-content{
+    text-justify: auto;
 }
