@@ -53,6 +53,20 @@ p,h4{
         margin: 200px auto;
         border-radius: 10px;
     }
+
+    .card_bottom{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+    }
+
+    .card_bottom > div > p,h4{
+        margin: .5em 0;
+        text-align: center;
+    }
 }
 
 .card{
